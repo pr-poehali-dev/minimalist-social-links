@@ -40,7 +40,7 @@ const Index = () => {
     {
       name: "Instagram",
       icon: "Instagram",
-      url: "https://instagram.com/username",
+      url: "https://www.instagram.com/dikixx__?igsh=MTg3bHBpMm12dGxqeg%3D%3D&utm_source=qr",
       gradient: "bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045]"
     },
     {
