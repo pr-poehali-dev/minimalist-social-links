@@ -34,7 +34,7 @@ const Index = () => {
     {
       name: "TikTok",
       icon: "Music",
-      url: "https://tiktok.com/@username",
+      url: "https://www.tiktok.com/@dikixx__?_t=ZS-90eK966gSCf&_r=1",
       gradient: "bg-gradient-to-r from-[#00f2ea] to-[#ff0050]"
     },
     {
