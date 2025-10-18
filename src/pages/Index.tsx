@@ -62,7 +62,7 @@ const Index = () => {
               className="w-24 h-24 mx-auto rounded-full object-cover shadow-2xl shadow-primary/30 mb-4"
             />
           </div>
-          <h1 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+          <h1 className="text-4xl font-bold tracking-tight text-black">
             DIKIXX
           </h1>
           <p className="text-muted-foreground text-lg">
