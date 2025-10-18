@@ -46,7 +46,7 @@ const Index = () => {
     {
       name: "Telegram",
       icon: "Send",
-      url: "https://t.me/username",
+      url: "https://t.me/DIKIXX_dm",
       gradient: "bg-gradient-to-r from-[#0088cc] to-[#2da5dc]"
     }
   ];
