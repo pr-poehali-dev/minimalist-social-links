@@ -57,11 +57,11 @@ const Index = () => {
         <div className="text-center space-y-4 mb-12">
           <div className="inline-block">
             <div className="w-24 h-24 mx-auto bg-gradient-to-br from-primary via-secondary to-accent rounded-full flex items-center justify-center text-4xl font-bold text-background shadow-2xl shadow-primary/30 mb-4">
-              А
+              D
             </div>
           </div>
           <h1 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-            Ваше Имя
+            DIKIXX
           </h1>
           <p className="text-muted-foreground text-lg">
             Все мои соцсети в одном месте
