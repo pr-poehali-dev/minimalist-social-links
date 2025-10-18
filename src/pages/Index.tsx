@@ -4,22 +4,23 @@ const socialLinks = [
   { 
     name: 'TikTok', 
     icon: 'Music', 
-    url: 'https://www.tiktok.com/@dikixx__?_t=ZS-90eK966gSCf&_r=1'
+    url: 'https://www.tiktok.com/@dikixx__?_t=ZS-90eK966gSCf&_r=1',
+    color: 'hover:border-pink-500/40 hover:bg-pink-500/5',
+    iconBg: 'bg-gradient-to-br from-cyan-500/20 to-pink-500/20'
   },
   { 
     name: 'Instagram', 
     icon: 'Instagram', 
-    url: 'https://www.instagram.com/dikixx__?igsh=MTg3bHBpMm12dGxqeg%3D%3D&utm_source=qr'
+    url: 'https://www.instagram.com/dikixx__?igsh=MTg3bHBpMm12dGxqeg%3D%3D&utm_source=qr',
+    color: 'hover:border-purple-500/40 hover:bg-purple-500/5',
+    iconBg: 'bg-gradient-to-br from-purple-500/20 to-pink-500/20'
   },
   { 
     name: 'Telegram', 
     icon: 'Send', 
-    url: 'https://t.me/DIKIXX_dm'
-  },
-  { 
-    name: 'YouTube', 
-    icon: 'Youtube', 
-    url: 'https://youtube.com/@dikixx'
+    url: 'https://t.me/DIKIXX_dm',
+    color: 'hover:border-blue-500/40 hover:bg-blue-500/5',
+    iconBg: 'bg-gradient-to-br from-blue-500/20 to-cyan-500/20'
   },
 ];
 
@@ -52,10 +53,10 @@ export default function Index() {
               rel="noopener noreferrer"
               className="block group"
             >
-              <div className="bg-card border border-border rounded-xl p-4 transition-all duration-200 hover:bg-muted/50 hover:border-primary/20">
+              <div className={`bg-card border border-border rounded-xl p-4 transition-all duration-200 ${link.color}`}>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center">
+                    <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${link.iconBg}`}>
                       <Icon name={link.icon} size={20} className="text-foreground" />
                     </div>
                     <span className="text-base font-medium text-foreground">
