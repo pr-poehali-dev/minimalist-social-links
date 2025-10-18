@@ -40,7 +40,7 @@ export default function Index() {
             DIKIXX
           </h1>
           <p className="text-muted-foreground text-sm">
-            Мы в других социальных сетях
+            Мы в других социальных сетях :)
           </p>
         </div>
 
