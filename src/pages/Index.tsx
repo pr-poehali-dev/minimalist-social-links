@@ -56,15 +56,17 @@ const Index = () => {
       <div className="w-full max-w-md space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
         <div className="text-center space-y-4 mb-12">
           <div className="inline-block">
-            <div className="w-24 h-24 mx-auto bg-gradient-to-br from-primary via-secondary to-accent rounded-full flex items-center justify-center text-4xl font-bold text-background shadow-2xl shadow-primary/30 mb-4">
-              D
-            </div>
+            <img 
+              src="https://cdn.poehali.dev/files/d5fab0fc-defd-4601-8024-3508c15c46f9.jpeg" 
+              alt="DIKIXX Logo" 
+              className="w-24 h-24 mx-auto rounded-full object-cover shadow-2xl shadow-primary/30 mb-4"
+            />
           </div>
           <h1 className="text-4xl font-bold tracking-tight bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
             DIKIXX
           </h1>
           <p className="text-muted-foreground text-lg">
-            Все мои соцсети в одном месте
+            Мы в других социальных сетях
           </p>
         </div>
 
