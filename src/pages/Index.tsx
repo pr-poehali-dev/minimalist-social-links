@@ -5,22 +5,22 @@ const socialLinks = [
     name: 'TikTok', 
     icon: 'Music', 
     url: 'https://www.tiktok.com/@dikixx__?_t=ZS-90eK966gSCf&_r=1',
-    color: 'hover:border-pink-500/40 hover:bg-pink-500/5',
-    iconBg: 'bg-gradient-to-br from-cyan-500/20 to-pink-500/20'
+    color: 'hover:border-pink-500/70 hover:bg-pink-500/15 hover:shadow-lg hover:shadow-pink-500/20',
+    iconBg: 'bg-gradient-to-br from-cyan-500/40 to-pink-500/40'
   },
   { 
     name: 'Instagram', 
     icon: 'Instagram', 
     url: 'https://www.instagram.com/dikixx__?igsh=MTg3bHBpMm12dGxqeg%3D%3D&utm_source=qr',
-    color: 'hover:border-purple-500/40 hover:bg-purple-500/5',
-    iconBg: 'bg-gradient-to-br from-purple-500/20 to-pink-500/20'
+    color: 'hover:border-purple-500/70 hover:bg-purple-500/15 hover:shadow-lg hover:shadow-purple-500/20',
+    iconBg: 'bg-gradient-to-br from-purple-500/40 to-pink-500/40'
   },
   { 
     name: 'Telegram', 
     icon: 'Send', 
     url: 'https://t.me/DIKIXX_dm',
-    color: 'hover:border-blue-500/40 hover:bg-blue-500/5',
-    iconBg: 'bg-gradient-to-br from-blue-500/20 to-cyan-500/20'
+    color: 'hover:border-blue-500/70 hover:bg-blue-500/15 hover:shadow-lg hover:shadow-blue-500/20',
+    iconBg: 'bg-gradient-to-br from-blue-500/40 to-cyan-500/40'
   },
 ];
 
